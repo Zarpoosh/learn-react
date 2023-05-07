@@ -1,0 +1,42 @@
+.modal-backdrop{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background:rgba(0, 0, 0, 0.5);
+}
+
+.modal{
+    position: 30px;
+    max-width: 480px;
+    margin: 200px auto;
+    background-color:#fff;
+    border-radius: 10px;
+    padding: 5px ;
+    border: 3px solid ;
+}
+.modal h2{
+    border-bottom: 2px solid lightgray;
+    padding: 10px;
+}
+.buy-btn{
+    color: blue;
+    background-color: #fff;
+    border: 2px solid blue;
+}
+.buy-btn:hover{
+    color: #fff;
+    background-color: blue;
+    border: 2px solid blue;
+}
+.sell-btn{
+    color: red;
+    background-color: #fff;
+    border: 2px solid rgb(255, 0, 0);
+}
+.sell-btn:hover{
+    color: #fff;
+    background-color: rgb(255, 0, 0);
+    border: 2px solid rgb(255, 0, 0);
+}
