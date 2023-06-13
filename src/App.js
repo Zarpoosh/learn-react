@@ -22,12 +22,15 @@ function App() {
     });
     setshowModal(false);
   };
+
   const handleClose = () => {
     setshowModal(false);
   };
+
   const handleOpen = () => {
     setshowModal(true);
   };
+
   const subtitle = "6 member";
 
   return (
